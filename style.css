@@ -1,0 +1,58 @@
+/* Deep Ocean Palette */
+body {
+    background-color: #001219; /* Darkest Blue */
+    color: #e9d8a6; /* Soft Sand Color */
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #005f73; /* Ocean Teal */
+    padding: 40px;
+    border-bottom: 5px solid #94d2bd;
+}
+
+h1 {
+    color: #94d2bd; /* Seafoam Green */
+    margin: 0;
+    text-transform: uppercase;
+}
+
+h3 {
+    color: #ee9b00; /* Contrast Orange */
+}
+
+/* Animal Card Styling */
+.animal-item {
+    background-color: #002129;
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    border-radius: 20px;
+    border: 2px solid #0a9396;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.5);
+}
+
+/* IMAGE SIZE CONTROL: Makes them look "organized" */
+.animal-item img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover; /* Crops image to fit perfectly */
+    border-radius: 15px;
+    border: 3px solid #94d2bd;
+}
+
+ul {
+    display: inline-block;
+    text-align: left;
+    background: #005f73;
+    padding: 20px 40px;
+    border-radius: 15px;
+}
+
+footer {
+    padding: 30px;
+    font-size: 0.8rem;
+    opacity: 0.6;
+}
